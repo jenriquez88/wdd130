@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Open+Sans:wght@300&family=Oswald:wght@300;400;500;600;700&display=swap');
 :root{
---primary-color: #2B5527;
---secondary-color: #036897; 
+--primary-color: #036897;
+--secondary-color:  #2B5527;
 --accent1-color: #A77A4A;
 --accent2-color: #BED927;
 
@@ -10,9 +10,9 @@
 --paragraph-font: 'Oswald', Helvetica;
 
 --nav-background-color: #036897;
---nav-link-color: #BED927;
---nav-hover-link-color: #A77A4A;
---nav-hover-background-color: #2B5527;
+--nav-link-color: #A77A4A;
+--nav-hover-link-color:   #2B5527;
+--nav-hover-background-color: #BED927;
 }
 body {
     font-family: var(--paragraph-font);
