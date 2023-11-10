@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Open+Sans:wght@300&family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@300;400;500;600;700&display=swap');
+
+
 :root{
 --primary-color: #036897;
 --secondary-color:  #2B5527;
---accent1-color: #A77A4A;
---accent2-color: #BED927;
+--accent1-color: #BED927;
+--accent2-color:  #A77A4A;
 
---heading-font: 'Covered by your grace';
+--heading-font: 'Courgette';
 --paragraph-font: 'Oswald', Helvetica;
 
 --nav-background-color: #036897;
---nav-link-color: #A77A4A;
---nav-hover-link-color:   #2B5527;
---nav-hover-background-color: #BED927;
+--nav-link-color: #BED927;
+--nav-hover-link-color:    #2B5527;
+--nav-hover-background-color:   #A77A4A;
 }
 body {
     font-family: var(--paragraph-font);
