@@ -7,8 +7,8 @@
 --accent1-color: #BED927;
 --accent2-color:  #A77A4A;
 
---heading-font: 'Courgette';
---paragraph-font: 'Oswald', Helvetica;
+--heading-font: 'Courgette', sans-serif;
+--paragraph-font: 'Oswald', Helvetica, sans-serif;
 
 --nav-background-color: #036897;
 --nav-link-color: #BED927;
@@ -24,14 +24,15 @@ body {
 h1, h2, h3, h4, h5, h6{ 
     font-family: var(--heading-font);
     color: var(--primary-color);
-
 }
+
 header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
+
 p{
-    padding: 20px;
+    padding: 25px;
 }
 
 nav{
@@ -47,8 +48,7 @@ nav a{
     padding: 1rem;
 }
 
-
-nav a:link, nav a:visited{
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
