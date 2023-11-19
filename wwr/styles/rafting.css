@@ -46,18 +46,19 @@ a{
 h1{
     position: absolute;
     top: 60px; 
-    left: 220px;
+    left: 160px;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 article{
     position: absolute;
     top: 220px;
-    background-color: rgba(167, 122, 74, 0.6);
+    background-color: rgb(166, 121, 74, 0.7);
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-
+    font-size: 1.3rem;
+    color: aliceblue;
 }
 article img{
     float: right;
