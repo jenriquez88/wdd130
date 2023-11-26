@@ -145,6 +145,8 @@ figure img {
     object-fit: cover;
 }    
 figcaption {
+    background-color: hsla(116, 37%, 24%, 0.172);
+    color: #fff;
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
