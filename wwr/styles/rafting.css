@@ -97,7 +97,7 @@ article h2{
 .adventure {
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-columns: repeat(5, minmax(1fr, 1fr));
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }    
 
 .adventure h2 {
@@ -154,7 +154,7 @@ figcaption {
     margin: 20px;
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-columns: repeat(5, minmax(1fr, 1fr));
+    grid-template-columns: auto 1fr auto;
 }
 .history h2 {
     display: grid;
