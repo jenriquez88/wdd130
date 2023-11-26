@@ -96,9 +96,8 @@ article h2{
 footer{    
     background-color:hsla(116, 37%, 24%, 0.172);
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 200px;
     padding: 10px;
-    align-items: center;
     text-align: center;
 }
 
