@@ -39,11 +39,9 @@ header {
 }
 
 h1{
-    position: absolute;
-    top: 60px; 
-    left: 140px;
-    color: white;
-    font-size: 4rem;
+
+    color:var(--primary-color);
+    font-size: 3rem;
 }
 
 nav{
