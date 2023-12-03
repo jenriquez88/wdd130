@@ -22,10 +22,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 p{
-    margin-left: 1rem;
+    margin: 1rem;
     font-family: var(--paragraph-font);
 }
-
+.people p{
+    margin: 1rem 0;
+}
 a{
     text-decoration: none;
 }
@@ -47,13 +49,19 @@ header {
     height: auto;
 }
 
-h1{
+div h1{
     position: absolute;
     top: 60px; 
     left: 140px;
     color: white;
     font-size: 4rem;
 }
+h1{
+    text-align: center;
+    color:var(--primary-color);
+    font-size: 3rem;
+}
+
 article{
     position: absolute;
     top: 220px;
@@ -90,9 +98,6 @@ article h2{
 .grid img {
     width: 200px;
 }
-
-
-
 
 .adventure {
     display: grid;
@@ -166,15 +171,121 @@ figcaption {
 }
 
 footer{    
+    padding-top:2rem ;
     background-color:hsla(116, 37%, 24%, 0.172);
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    padding: 10px;
     text-align: center;
+    padding-bottom: 3rem;
 }
 
+footer div{    
+
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    text-align: center;
+}
 .sociallinks a {
+
     margin: 0;
     padding: 0;
 
+}
+
+section {
+    border-top: 2px solid #2B5527;
+    padding: 2rem;
+
+}
+.people {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.member{
+    text-align: center;
+
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.address {
+    padding: 5rem 0;
+    background-color: #a77a4a24;
+    display: flex;
+    justify-content: space-evenly
+}
+
+iframe {
+    width: 250px;
+    height: 250px;
+}
+
+.member{
+    border: 2px solid var(--primary-color);
+    border-radius: .7rem;
+    width: 230px;
+
+}
+.member p {
+    text-align: center;
+    background-color: #2b552744;
+
+}
+
+
+form {
+    max-width: 650px;
+    margin: 0 7rem;
+    display: grid;
+}
+
+label, input, button, textarea {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+label {
+    text-align: left;
+    margin-top: 1rem;
+    padding-right: 1rem;
+}
+.radio {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+input,textarea{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: .9rem;
+    font-weight:lighter;
+}
+
+button {
+    margin: 1.5rem auto;
+    background-color:#036897;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    padding: .5rem 2rem;
+    font-size: 1rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.grid img {
+    width: 200px;
 }
