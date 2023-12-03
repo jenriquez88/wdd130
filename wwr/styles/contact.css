@@ -51,14 +51,6 @@ nav{
     justify-content: space-evenly;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-}
-
-.grid img {
-    width: 200px;
-}
 
 footer {
     padding-top:2rem ;
