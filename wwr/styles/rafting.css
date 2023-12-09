@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dosis:wght@300&display=swap');
 
 :root{
     --primary-color: #036897;
@@ -6,8 +6,8 @@
     --accent1-color: #BED927;
     --accent2-color:  #A77A4A;
     
-    --heading-font: 'Courgette', sans-serif;
-    --paragraph-font: 'Oswald', Helvetica, sans-serif;
+    --heading-font: 'Black Han Sans', sans-serif;
+    --paragraph-font: 'Dosis', Helvetica, sans-serif;
     
     --nav-background-color:  #BED927;
     --nav-link-color: #036897;
@@ -24,13 +24,14 @@ h1, h2, h3, h4, h5, h6{
 p{
     margin: 1rem;
     font-family: var(--paragraph-font);
+    font-weight: bold;
 }
 .people p{
     margin: 1rem 0;
 }
 a{
     text-decoration: none;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 *{
@@ -44,6 +45,10 @@ header {
 }
 
 .hero{
+    position: relative;
+    margin-top: 20px;
+}
+.hero-trips{
     position: relative;
     margin-top: 20px;
 }
@@ -66,6 +71,16 @@ h1{
     font-size: 3rem;
 }
 
+.hero-trips a {
+    font-family: var(--heading-font);
+    color: black;
+    font-size: 4rem;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    padding: 1rem;
+    background-color: #036897;
+}
 article{
     position: absolute;
     top: 220px;
@@ -193,12 +208,6 @@ footer div{
     padding: 0;
 
 }
-
-section {
-    border-top: 2px solid #2B5527;
-    padding: 2rem;
-
-}
 .people {
     display: flex;
     justify-content: space-around;
@@ -238,9 +247,7 @@ iframe {
 .member p {
     text-align: center;
     background-color: #2b552744;
-
 }
-
 
 form {
     max-width: 650px;
@@ -292,4 +299,105 @@ button {
 
 .grid img {
     width: 200px;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trips div{
+    border: 2px solid var(--primary-color);
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.reviews div{
+    border: 2px solid var(--primary-color);
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.reviews img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card-footer{
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    
+}
+
+.trips div img{
+    width: 20vh;
+    flex: 1 0 auto;
+}
+
+.home-hero h1 {
+    top: 300px;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.newsletter {
+    background-color: #a77a4aab;
+    display: grid;
+    grid-column: 2/3;
+    align-items: center;
+}
+.trip-options {
+    font-size: 2rem;
+    background-color: #0368979d;
+    display: grid;
+    grid-column: 1/2;
+    align-items: center;
+}
+.trip-options a {
+    background-color: #2B5527;
+    color: white;
+    text-align: center  ;
+}
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.grid-item {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+}
+.grid-item img {
+    width: 492px;
+    flex: 1 0 auto;
 }
