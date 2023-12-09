@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
     color: var(--primary-color);
     margin: 20px;
+    text-align: center;
 }
 
 p{
@@ -61,25 +62,23 @@ header {
 div h1{
     position: absolute;
     top: 60px; 
-    left: 140px;
+    left: 180px;
     color: white;
-    font-size: 4rem;
-}
-h1{
-    text-align: center;
-    color:var(--primary-color);
     font-size: 3rem;
 }
+
 
 .hero-trips a {
     font-family: var(--heading-font);
     color: black;
     font-size: 4rem;
     position: absolute;
-    top: 200px;
+    top: 250px;
     left: 300px;
     padding: 1rem;
     background-color: #036897;
+    border-style: double;
+
 }
 article{
     position: absolute;
@@ -228,6 +227,7 @@ footer div{
 
 .address {
     padding: 5rem 0;
+    margin: 1rem 0;
     background-color: #a77a4a24;
     display: flex;
     justify-content: space-evenly
@@ -250,9 +250,10 @@ iframe {
 }
 
 form {
-    max-width: 650px;
+
     margin: 0 7rem;
     display: grid;
+    align-items: center;
 }
 
 label, input, button, textarea {
@@ -374,16 +375,20 @@ button {
     align-items: center;
 }
 .trip-options {
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: #0368979d;
     display: grid;
     grid-column: 1/2;
     align-items: center;
 }
 .trip-options a {
+    font-size: larger;
+    font-family: Dosis;
+    font-weight: bold;
     background-color: #2B5527;
     color: white;
     text-align: center  ;
+    padding: 1rem;
 }
 .grid-layout {
     display: grid;
