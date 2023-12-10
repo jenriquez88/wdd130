@@ -422,6 +422,9 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
+    margin: 0;
+
+
 }
 .grid-item {
 
@@ -429,8 +432,10 @@ button {
     flex-direction: column;
     align-items: center;
     font-size: x-large;
+    background-color: #bed927c1;
 }
 .grid-item img {
+
     width: 492px;
     flex: 1 0 auto;
 }
@@ -447,6 +452,11 @@ button {
 .what {
     font-size: 3rem;
     background-color: #bed927c1;
-    margin: 0 0 2rem 0;
+    margin: 2rem 0 2rem 0;
     padding: 2rem;
+}
+
+body {
+    background-color: #a77a4a3a;
+
 }
