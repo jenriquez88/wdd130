@@ -173,7 +173,7 @@ figcaption {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .history {
     margin: 20px;
@@ -306,7 +306,11 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
+.star {
+    background-color: rgba(0, 0, 0, 0.565);
+    padding: 0.5rem;
+    border-radius: 10%;
+}
 .trips div{
     border: 2px solid var(--primary-color);
     margin: 10px;
@@ -331,33 +335,43 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
+.review-text {
+    font-style: italic;
+}
 .reviews img {
+    margin: 1rem;
     width: 200px;
     height: 100px;
     object-fit: cover;
     margin-bottom: 10px;
 }
+.name {
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
 
 .card-footer{
+    color: black;
     text-decoration: none;
     padding: 0.25rem 0.5rem;
-    font-size: .875rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    background-color: #2b55278a;
     border-radius: 0.2rem;
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
+    margin-bottom: 1rem;
+
+
     
 }
 
 .trips div img{
+    margin: rem;
     width: 20vh;
-    flex: 1 0 auto;
+    height: 13vh;
 }
 
 .home-hero h1 {
