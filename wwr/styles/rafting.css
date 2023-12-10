@@ -33,6 +33,18 @@ p{
 a{
     text-decoration: none;
     font-weight: bold;
+    color: #036897;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: #2B5527;
+    background-color: #A77A4A;
+
+
+
 }
 
 *{
@@ -420,3 +432,6 @@ button {
     width: 492px;
     flex: 1 0 auto;
 }
+
+
+
