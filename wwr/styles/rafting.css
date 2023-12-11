@@ -434,7 +434,7 @@ button {
 }
 
 .trips-title, .review-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .trip-name {
@@ -455,7 +455,7 @@ body {
 
 }
 
-.join, .ready {
+.join{
     top: 110px;
     left: 235px;
 }
