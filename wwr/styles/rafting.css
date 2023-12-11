@@ -468,3 +468,19 @@ body {
     top: 80px;
     left: 150px;
 }
+
+table {
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem;
+
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #2B5527;
+}
