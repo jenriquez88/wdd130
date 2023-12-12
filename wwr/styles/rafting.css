@@ -389,15 +389,16 @@ button {
     grid-template-columns: 1fr 1fr;
 }
 .newsletter {
+
     margin: 0;
-    background-color: #a77a4aab;
+    background-color: #a77a4a3a;
     display: grid;
     grid-column: 2/3;
     align-items: center;
 }
 .trip-options {
     font-size: 1.5rem;
-    background-color: #0368979d;
+    background-color: #03689750;
     display: grid;
     grid-column: 1/2;
     align-items: center;
